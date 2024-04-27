@@ -135,7 +135,7 @@ TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 CAMERA_PACKAGE_NAME := com.android.camera
 
 # Partitions
--include vendor/aosp/config/BoardConfigReservedSize.mk
+include vendor/voltage/config/BoardConfigReservedSize.mk
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824

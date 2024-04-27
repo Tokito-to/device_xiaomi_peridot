@@ -8,13 +8,19 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common PixelOS-AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Voltage stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-# Inherit from peridot device
+# Inherit from device makefile
 $(call inherit-product, device/xiaomi/peridot/device.mk)
 
-PRODUCT_NAME := aosp_peridot
+# Voltage Build Status
+VOLTAGE_BUILD_TYPE := UNOFFICIAL
+
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 2160
+
+PRODUCT_NAME := voltage_peridot
 PRODUCT_DEVICE := peridot
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO

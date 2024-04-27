@@ -401,6 +401,9 @@ PRODUCT_PACKAGES += \
     WifiOverlayPeridotPOCO \
     WifiOverlayPeridotRedmi
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-voltage
+
 # Parts
 PRODUCT_PACKAGES += \
     XiaomiParts
