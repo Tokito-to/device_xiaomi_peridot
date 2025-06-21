@@ -1,4 +1,4 @@
-# Unpinned blobs from missi_phone_global_only64-user 14 UKQ1.240116.001 V816.0.5.0.UNPMIXM release-keys
+# Unpinned blobs from peridot_global-user 14 UKQ1.240116.001 V816.0.5.0.UNPMIXM release-keys
 
 # ACDB
 odm/etc/acdbdata/Fluence/foursemi/Fluence_acdb_cal_fs.acdb
