@@ -1,0 +1,29 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "media_codecs_cliffs_v0.xml",
+    src: "media_codecs_cliffs_v0.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_codecs_performance_cliffs_v0.xml",
+    src: "media_codecs_performance_cliffs_v0.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_codecs.xml",
+    src: "media_codecs.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_profiles_cliffs_v0.xml",
+    src: "media_profiles_cliffs_v0.xml",
+    vendor: true,
+}
